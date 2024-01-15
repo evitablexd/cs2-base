@@ -9,4 +9,8 @@ Flaws:
 - Calling CreateInterface directly
 - Ugly dx11 swap chain creation code
 
+Pre-requisites:
+- Premake 5
+- VS2019+
+
 Discord: @evitablezzz
