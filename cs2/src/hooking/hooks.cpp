@@ -80,6 +80,7 @@ void hooks::initialize_main()
 {
     if (client_hooks.initialize(interfaces::client)) {
         client_hooks.hook(reinterpret_cast<void*>(hooks::framestagenotify::framestage_hk), 33, &hooks::framestagenotify::original);
+	client_hooks.swap_context();
     }
 }
 
