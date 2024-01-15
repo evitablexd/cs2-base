@@ -1,4 +1,4 @@
-This is a simple base I made in a an hour or so.
+This is a simple "base", all you need to do is add your scheme/game sdk :)
 
 It contains:
 - Shadow VMT Hooking (undetected)
