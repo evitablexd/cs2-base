@@ -12,5 +12,3 @@ Flaws:
 Pre-requisites:
 - Premake 5
 - VS2019+
-
-Discord: @evitablezzz
