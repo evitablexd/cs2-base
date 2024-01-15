@@ -20,11 +20,6 @@ public:
 
 	vmt_hook() { }
 
-	static bool valid_pointer(uintptr_t ptr)
-	{
-		return ptr && (ptr >= 0x10000) && (ptr < 0xF000000000000);
-	}
-
 	size_t get_function_count()
 	{
 		MEMORY_BASIC_INFORMATION mbi{ };
