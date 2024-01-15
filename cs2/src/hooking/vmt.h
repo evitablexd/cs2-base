@@ -74,7 +74,11 @@ public:
 
 		this->last_hooked_address = this->address;
 		this->last_hooked_size = index;
+	}
 
+	void swap_context() {
+		if(!this->address || !this->allocated_vtable) return;
+		
 		*reinterpret_cast<uintptr_t**>(this->address) = this->allocated_vtable; // apply our shadow vmt
 	}
 
